@@ -6,11 +6,11 @@ build-backend = "setuptools.build_meta"
 # https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
 [project]
 name = "montecarlo"
-description = "montecarlo simulation package"
+description = "Functions to be used with montecarlo sim"
 dynamic = ["version"]
 readme = "README.md"
 authors = [
-    { name = "Max Linville", email = "maxlinvile7@gmail.com" }
+    { name = "Max Linville", email = "maxlinville7@gmail.com" }
 ]
 license = { text = "MIT" }
 # See https://pypi.org/classifiers/
@@ -20,9 +20,11 @@ classifiers = [
 ]
 requires-python = ">=3.8"
 # Declare any run-time dependencies that should be installed with the package.
-#dependencies = [
+dependencies = [
 #    "importlib-resources;python_version<'3.10'",
-#]
+        "numpy>=1.26.3",
+        "matplotlib>=3.8.2"
+]
 
 # Update the urls once the hosting is set up.
 #[project.urls]

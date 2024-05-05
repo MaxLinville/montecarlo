@@ -7,6 +7,7 @@ montecarlo
 [//]: # (Badges)
 ![rtd](https://readthedocs.org/projects/montecarlo-maxlinville/badge/?version=latest&style=plastic)
 [![codecov](https://codecov.io/gh/MaxLinville/montecarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/MaxLinville/montecarlo/branch/main)
+[![GitHubActions](https://github.com/MaxLinville/montecarlo/workflows/CI/badge.svg)](https://github.com/MaxLinville/montecarlo/actions?query=workflow%3ACI)
 
 
 montecarlo simulation package

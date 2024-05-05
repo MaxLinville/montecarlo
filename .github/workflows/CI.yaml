@@ -52,6 +52,7 @@ jobs:
           python -m pip install . --no-deps
           python -m pip install numpy
           python -m pip install matplotlib
+          python -m pip install networkx
           micromamba list
 
       - name: Run tests

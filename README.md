@@ -5,8 +5,8 @@ Montecarlo simulation package for QS
 montecarlo
 ==============================
 [//]: # (Badges)
-[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/actions?query=workflow%3ACI)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/branch/main)
+![rtd](https://readthedocs.org/projects/montecarlo-maxlinville/badge/?version=latest&style=plastic)
+[![codecov](https://codecov.io/gh/MaxLinville/montecarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/MaxLinville/montecarlo/branch/main)
 
 
 montecarlo simulation package

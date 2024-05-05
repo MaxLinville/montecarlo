@@ -146,6 +146,9 @@ class IsingHamiltonian:
 
         return E, M, HC, MS
 
+    def get_lowest_energy_config(verbose=0):
+        pass
+
 if __name__ == "__main__":
     # Do something if this file is invoked on its own
     pass

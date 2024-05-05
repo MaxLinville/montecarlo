@@ -12,3 +12,5 @@ comment:
   behavior: default
   flags: null
   paths: null
+codecov:
+  token: 8e0b1463-47eb-47e8-9fa0-838a6b79463d

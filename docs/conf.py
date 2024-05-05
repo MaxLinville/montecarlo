@@ -28,9 +28,9 @@ copyright = ("2024, Max Linville. Project structure based on the "
 author = 'Max Linville'
 
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = '1.0.0'
 
 
 # -- General configuration ---------------------------------------------------

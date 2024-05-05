@@ -15,4 +15,6 @@ montecarlo.egg-info/not-zip-safe
 montecarlo.egg-info/requires.txt
 montecarlo.egg-info/top_level.txt
 montecarlo/tests/__init__.py
+montecarlo/tests/test_bitstring.py
+montecarlo/tests/test_ising_hamiltonian.py
 montecarlo/tests/test_montecarlo.py

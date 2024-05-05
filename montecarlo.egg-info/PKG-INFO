@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: montecarlo
-Version: 1.0.0+0.gf83ab31.dirty
+Version: 1.0.0+8.g238b8e9.dirty
 Summary: montecarlo simulation package
 Author-email: Max Linville <maxlinvile7@gmail.com>
 License: MIT
@@ -12,6 +12,10 @@ License-File: LICENSE
 Provides-Extra: test
 Requires-Dist: pytest>=6.1.2; extra == "test"
 
+<<<<<<< HEAD
+# montecarlo
+Montecarlo simulation package for QS
+=======
 montecarlo
 ==============================
 [//]: # (Badges)
@@ -30,3 +34,4 @@ Copyright (c) 2024, Max Linville
  
 Project based on the 
 [Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.1.
+>>>>>>> f83ab31 (Initial commit after CMS Cookiecutter creation, version 1.1)

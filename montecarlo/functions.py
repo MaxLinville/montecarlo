@@ -146,7 +146,7 @@ class IsingHamiltonian:
 
         return E, M, HC, MS
 
-    def get_lowest_energy_config(verbose=0):
+    def get_lowest_energy_config(self, verbose=0):
         xmin = None
         emin = 0
         bs = BitString(self.N)

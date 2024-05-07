@@ -1,29 +1,26 @@
 Metadata-Version: 2.1
 Name: montecarlo
-Version: 1.0.0+8.g238b8e9.dirty
-Summary: montecarlo simulation package
-Author-email: Max Linville <maxlinvile7@gmail.com>
+Version: 1.0.0+22.g1625b7e
+Summary: Functions to be used with montecarlo sim
+Author-email: Max Linville <maxlinville7@gmail.com>
 License: MIT
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: numpy>=1.26.3
+Requires-Dist: matplotlib>=3.8.2
+Requires-Dist: networkx>=3.1
 Provides-Extra: test
 Requires-Dist: pytest>=6.1.2; extra == "test"
 
-<<<<<<< HEAD
-# montecarlo
 Montecarlo simulation package for QS
 =======
-montecarlo
-==============================
 [//]: # (Badges)
-[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/actions?query=workflow%3ACI)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/branch/main)
-
-
-montecarlo simulation package
+[![rtd](https://readthedocs.org/projects/montecarlo-maxlinville/badge/?version=latest&style=default)](https://montecarlo-maxlinville.readthedocs.io/en/latest/)
+[![codecov](https://codecov.io/gh/MaxLinville/montecarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/MaxLinville/montecarlo/branch/main)
+[![GitHubActions](https://github.com/MaxLinville/montecarlo/workflows/CI/badge.svg)](https://github.com/MaxLinville/montecarlo/actions?query=workflow%3ACI)
 
 ### Copyright
 

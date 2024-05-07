@@ -153,8 +153,6 @@ class IsingHamiltonian:
         for config in range(2**self.N):
             bs.set_int_config(config)
             e = self.energy(bs)
-            x.append(config)
-            y.append(e)
             if e < emin:
                 emin = e
                 xmin = config

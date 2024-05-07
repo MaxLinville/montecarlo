@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: montecarlo
-Version: 1.0.0+22.g1625b7e
+Version: 1.0.0+23.gb6210c0.dirty
 Summary: Functions to be used with montecarlo sim
 Author-email: Max Linville <maxlinville7@gmail.com>
 License: MIT

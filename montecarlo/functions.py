@@ -147,7 +147,22 @@ class IsingHamiltonian:
         return E, M, HC, MS
 
     def get_lowest_energy_config(verbose=0):
-        pass
+        xmin = None
+        emin = 0
+        bs = BitString(self.N)
+        for config in range(2**self.N):
+            bs.set_int_config(config)
+            e = self.energy(bs)
+            x.append(config)
+            y.append(e)
+            if e < emin:
+                emin = e
+                xmin = config
+        bs.set_int_config(xmin)
+        if verbose:
+            return(emin, bs)
+        return emin
+        
 
 if __name__ == "__main__":
     # Do something if this file is invoked on its own

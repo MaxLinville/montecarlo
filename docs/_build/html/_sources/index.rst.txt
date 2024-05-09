@@ -12,7 +12,7 @@ This documentation covers the modules developed for the montecarlo simulation pr
    getting_started
    ising
    bitstring
-   api_reference
+
 
 Indices and tables
 ==================

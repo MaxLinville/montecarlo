@@ -3,14 +3,15 @@ import numpy as np
 
 class BitString:
     """
-    Simple class to implement a config of bits
+    DOCSTRING
+    Simple class to implement a configuration of spins as a string array of bits
     """
     def __init__(self, N):
         self.N = N
         self.config = np.zeros(N, dtype=int) 
 
     def __repr__(self):
-        return "".join([str(bit) for bit in self.config])
+        return "".join([str(    bit) for bit in self.config])
 
     def __eq__(self, other):        
         return self.int() == other.int() 

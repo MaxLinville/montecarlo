@@ -1,4 +1,4 @@
 User Guide
 ===============
 
-This page details how to use montecarlo. 
+See IsingHamiltonian class and BitString class sections for more detail

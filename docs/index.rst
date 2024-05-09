@@ -3,73 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to montecarlo's documentation!
-=========================================================
-
-.. grid:: 1 1 2 2
-
-    .. grid-item-card:: Getting Started
-      :margin: 0 3 0 0
-      
-      Using the montecarlo package to run simulations on cool things
-
-      .. button-link:: ./getting_started.html
-         :color: primary
-         :outline:
-         :expand:
-
-         To the Getting Started Guide
-
-      
-
-    .. grid-item-card::  User Guide
-      :margin: 0 3 0 0
-      
-      An in-depth guide for users.
-
-      .. button-link:: ./user_guide.html
-         :color: primary
-         :outline:
-         :expand:
-
-         To the User Guide
-      
-      
-
-    .. grid-item-card:: API Reference
-      :margin: 0 3 0 0
-      
-      How to use the API of montecarlo.
-
-      .. button-link:: ./api.html
-         :color: primary
-         :outline:
-         :expand:
-
-         To the API Reference.
-
-      
-
-    .. grid-item-card::  Developer Guide
-      :margin: 0 3 0 0
-      
-      How to contribute to montecarlo.
-
-      .. button-link:: ./developer_guide.html
-         :color: primary
-         :outline:
-         :expand:
-
-         To the Developer Guide
-
+This documentation covers the modules developed for the montecarlo simulation project, detailing setup, usage, and functionalities of the BitString and Ising Hamiltonian classes.
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
-   :titlesonly:
+   :caption: Contents:
 
    getting_started
-   user_guide
-   api
-   developer_guide
+   ising
+   bitstring
+   api_reference
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
 
